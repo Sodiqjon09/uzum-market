@@ -1,0 +1,31 @@
+.Bottombar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.types {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.Bottombar span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12.8px;
+  font-weight: 600;
+  color: #1f2026;
+}
+.types a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #595b66;
+  text-decoration: none;
+}
+.Bottombar select {
+  border: none;
+  color: #595b66;
+  font-size: 14px;
+  font-weight: 400;
+}

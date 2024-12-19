@@ -1,0 +1,85 @@
+.login {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f9fc;
+}
+.loginClass {
+  background-color: #002d40;
+  padding: 40px 20px;
+  border-radius: 20px;
+  text-align: center;
+  width: 530px;
+  height: 500px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.login input {
+  display: block;
+  width: 90%;
+  height: 55px;
+  padding: 5px 15px;
+  margin: 10px auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 40px;
+}
+.login input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+}
+.login button {
+  background: none;
+  padding: 10px;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.login hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  width: 90%;
+  margin: 0 auto;
+}
+.FcGoogle,
+.FaFacebook {
+  margin: 10px;
+  cursor: pointer;
+  cursor: pointer;
+}
+.error {
+  color: red;
+}
+.kirish {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 700;
+}
+.signin {
+  text-decoration: none;
+  color: blue;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.icon {
+  margin-top: 30px;
+}
+.icon button {
+  border: 1px solid #fff;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto;
+}
