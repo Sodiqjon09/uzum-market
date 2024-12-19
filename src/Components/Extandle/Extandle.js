@@ -1,7 +1,7 @@
 import React from "react";
 import "./Extandle.css";
 import { FaAngleRight } from "react-icons/fa6";
-import { products } from "../../data/data";
+import { LowPrices } from "../../data/data";
 
 function Extandle() {
   return (
@@ -9,13 +9,24 @@ function Extandle() {
       <span>
         Arzon narxlar <FaAngleRight size={18} />
       </span>
-      <div>
-        {products.map((el) => {
+      <div className="LowPrices">
+        {LowPrices.map((e) => {
           return (
-            <div key={el.id} className="product">
-              <img src={el.image} alt={el.name} />
-              <div className="info">
-                <span>{el.name}</span>
+            <div key={e.id} className="goods">
+              <img className="image" src={e.img} alt={e.title} />
+              <span id="title">{e.title}</span>
+              <span id="star">
+                {e.starIcon} {e.starText}
+              </span>
+              <span id="credit">{e.credit}</span>
+              <div className="product">
+                <div className="price">
+                  <span id="fake-price">{e.fakePrice}</span>
+                  <span id="actual-price">{e.price}</span>
+                </div>
+                <div className="image">
+                  <img src={e.divSlot} alt="Product image" />
+                </div>
               </div>
             </div>
           );

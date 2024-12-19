@@ -1,75 +1,288 @@
-import image1 from "../asset/images/2.png";
-import image2 from "../asset/images/2.png";
-import image3 from "../asset/images/2.png";
-import image4 from "../asset/images/2.png";
-import image5 from "../asset/images/2.png";
-import image6 from "../asset/images/2.png";
-import image7 from "../asset/images/2.png";
-import image8 from "../asset/images/2.png";
-import image9 from "../asset/images/2.png";
-import image10 from "../asset/images/2.png";
-import image11 from "../asset/images/2.png";
-import image12 from "../asset/images/2.png";
-import image13 from "../asset/images/2.png";
-import image14 from "../asset/images/2.png";
-import image15 from "../asset/images/2.png";
-import image16 from "../asset/images/2.png";
-import image17 from "../asset/images/2.png";
-import image18 from "../asset/images/2.png";
-import image19 from "../asset/images/2.png";
-import image20 from "../asset/images/2.png";
+import { FaStar } from "react-icons/fa6";
+import { FaRegHeart } from "react-icons/fa6";
+import divSlot from "../asset/images/Button.png";
 
-export const products = [
+import img1 from "../asset/images/1.png";
+import img2 from "../asset/images/2.png";
+import img3 from "../asset/images/3.png";
+import img4 from "../asset/images/4.png";
+import img5 from "../asset/images/5.png";
+import img6 from "../asset/images/6.png";
+import img7 from "../asset/images/7.png";
+import img8 from "../asset/images/8.png";
+import img9 from "../asset/images/9.png";
+import img10 from "../asset/images/10.png";
+import img11 from "../asset/images/11.png";
+import img12 from "../asset/images/12.png";
+import img13 from "../asset/images/13.png";
+import img14 from "../asset/images/14.png";
+import img15 from "../asset/images/15.png";
+import img16 from "../asset/images/16.png";
+import img17 from "../asset/images/17.png";
+import img18 from "../asset/images/18.png";
+import img19 from "../asset/images/19.png";
+import img20 from "../asset/images/20.png";
+
+export const LowPrices = [
   {
     id: 1,
+    img: img1,
+    like: <FaRegHeart />,
+    title: `Kungaboqar yog'i Oila tanlovi,
+    tozalangan va xidsizlantirilgan, 90…`,
+    starText: `4.9 (4092 sharsh)`,
+    starIcon: <FaStar color="#FFB54C" size={12} />,
+    credit: `1 560 so'm/oyiga`,
+    fakePrice: "15 000 so'm",
+    price: "13 000 so'm",
+    divSlot: divSlot,
+  },
+  {
+    id: 2,
+    img: img1,
+    like: <FaRegHeart />,
+    title: `Kungaboqar yog'i Oila tanlovi,
+    tozalangan va xidsizlantirilgan, 90…`,
+    starText: `4.9 (4092 sharsh)`,
+    starIcon: <FaStar color="#FFB54C" size={12} />,
+    credit: `1 560 so'm/oyiga`,
+    fakePrice: "15 000 so'm",
+    price: "13 000 so'm",
+    divSlot: divSlot,
+  },
+  {
+    id: 3,
+    img: img1,
+    like: <FaRegHeart />,
+    title: `Kungaboqar yog'i Oila tanlovi,
+    tozalangan va xidsizlantirilgan, 90…`,
+    starText: `4.9 (4092 sharsh)`,
+    starIcon: <FaStar color="#FFB54C" size={12} />,
+    credit: `1 560 so'm/oyiga`,
+    fakePrice: "15 000 so'm",
+    price: "13 000 so'm",
+    divSlot: divSlot,
+  },
+  {
+    id: 4,
+    img: img1,
+    like: <FaRegHeart />,
+    title: `Kungaboqar yog'i Oila tanlovi,
+    tozalangan va xidsizlantirilgan, 90…`,
+    starText: `4.9 (4092 sharsh)`,
+    starIcon: <FaStar color="#FFB54C" size={12} />,
+    credit: `1 560 so'm/oyiga`,
+    fakePrice: "15 000 so'm",
+    price: "13 000 so'm",
+    divSlot: divSlot,
+  },
+  {
+    id: 5,
+    img: img1,
+    like: <FaRegHeart />,
+    title: `Kungaboqar yog'i Oila tanlovi,
+    tozalangan va xidsizlantirilgan, 90…`,
+    starText: `4.9 (4092 sharsh)`,
+    starIcon: <FaStar color="#FFB54C" size={12} />,
+    credit: `1 560 so'm/oyiga`,
+    fakePrice: "15 000 so'm",
+    price: "13 000 so'm",
+    divSlot: divSlot,
   },
   {
     id: 1,
+    img: img1,
+    like: <FaRegHeart />,
+    title: `Kungaboqar yog'i Oila tanlovi,
+    tozalangan va xidsizlantirilgan, 90…`,
+    starText: `4.9 (4092 sharsh)`,
+    starIcon: <FaStar color="#FFB54C" size={12} />,
+    credit: `1 560 so'm/oyiga`,
+    fakePrice: "15 000 so'm",
+    price: "13 000 so'm",
+    divSlot: divSlot,
+  },
+  {
+    id: 2,
+    img: img1,
+    like: <FaRegHeart />,
+    title: `Kungaboqar yog'i Oila tanlovi,
+    tozalangan va xidsizlantirilgan, 90…`,
+    starText: `4.9 (4092 sharsh)`,
+    starIcon: <FaStar color="#FFB54C" size={12} />,
+    credit: `1 560 so'm/oyiga`,
+    fakePrice: "15 000 so'm",
+    price: "13 000 so'm",
+    divSlot: divSlot,
+  },
+  {
+    id: 3,
+    img: img1,
+    like: <FaRegHeart />,
+    title: `Kungaboqar yog'i Oila tanlovi,
+    tozalangan va xidsizlantirilgan, 90…`,
+    starText: `4.9 (4092 sharsh)`,
+    starIcon: <FaStar color="#FFB54C" size={12} />,
+    credit: `1 560 so'm/oyiga`,
+    fakePrice: "15 000 so'm",
+    price: "13 000 so'm",
+    divSlot: divSlot,
+  },
+  {
+    id: 4,
+    img: img1,
+    like: <FaRegHeart />,
+    title: `Kungaboqar yog'i Oila tanlovi,
+    tozalangan va xidsizlantirilgan, 90…`,
+    starText: `4.9 (4092 sharsh)`,
+    starIcon: <FaStar color="#FFB54C" size={12} />,
+    credit: `1 560 so'm/oyiga`,
+    fakePrice: "15 000 so'm",
+    price: "13 000 so'm",
+    divSlot: divSlot,
+  },
+  {
+    id: 5,
+    img: img1,
+    like: <FaRegHeart />,
+    title: `Kungaboqar yog'i Oila tanlovi,
+    tozalangan va xidsizlantirilgan, 90…`,
+    starText: `4.9 (4092 sharsh)`,
+    starIcon: <FaStar color="#FFB54C" size={12} />,
+    credit: `1 560 so'm/oyiga`,
+    fakePrice: "15 000 so'm",
+    price: "13 000 so'm",
+    divSlot: divSlot,
   },
   {
     id: 1,
+    img: img1,
+    like: <FaRegHeart />,
+    title: `Kungaboqar yog'i Oila tanlovi,
+    tozalangan va xidsizlantirilgan, 90…`,
+    starText: `4.9 (4092 sharsh)`,
+    starIcon: <FaStar color="#FFB54C" size={12} />,
+    credit: `1 560 so'm/oyiga`,
+    fakePrice: "15 000 so'm",
+    price: "13 000 so'm",
+    divSlot: divSlot,
+  },
+  {
+    id: 2,
+    img: img1,
+    like: <FaRegHeart />,
+    title: `Kungaboqar yog'i Oila tanlovi,
+    tozalangan va xidsizlantirilgan, 90…`,
+    starText: `4.9 (4092 sharsh)`,
+    starIcon: <FaStar color="#FFB54C" size={12} />,
+    credit: `1 560 so'm/oyiga`,
+    fakePrice: "15 000 so'm",
+    price: "13 000 so'm",
+    divSlot: divSlot,
+  },
+  {
+    id: 3,
+    img: img1,
+    like: <FaRegHeart />,
+    title: `Kungaboqar yog'i Oila tanlovi,
+    tozalangan va xidsizlantirilgan, 90…`,
+    starText: `4.9 (4092 sharsh)`,
+    starIcon: <FaStar color="#FFB54C" size={12} />,
+    credit: `1 560 so'm/oyiga`,
+    fakePrice: "15 000 so'm",
+    price: "13 000 so'm",
+    divSlot: divSlot,
+  },
+  {
+    id: 4,
+    img: img1,
+    like: <FaRegHeart />,
+    title: `Kungaboqar yog'i Oila tanlovi,
+    tozalangan va xidsizlantirilgan, 90…`,
+    starText: `4.9 (4092 sharsh)`,
+    starIcon: <FaStar color="#FFB54C" size={12} />,
+    credit: `1 560 so'm/oyiga`,
+    fakePrice: "15 000 so'm",
+    price: "13 000 so'm",
+    divSlot: divSlot,
+  },
+  {
+    id: 5,
+    img: img1,
+    like: <FaRegHeart />,
+    title: `Kungaboqar yog'i Oila tanlovi,
+    tozalangan va xidsizlantirilgan, 90…`,
+    starText: `4.9 (4092 sharsh)`,
+    starIcon: <FaStar color="#FFB54C" size={12} />,
+    credit: `1 560 so'm/oyiga`,
+    fakePrice: "15 000 so'm",
+    price: "13 000 so'm",
+    divSlot: divSlot,
   },
   {
     id: 1,
+    img: img1,
+    like: <FaRegHeart />,
+    title: `Kungaboqar yog'i Oila tanlovi,
+    tozalangan va xidsizlantirilgan, 90…`,
+    starText: `4.9 (4092 sharsh)`,
+    starIcon: <FaStar color="#FFB54C" size={12} />,
+    credit: `1 560 so'm/oyiga`,
+    fakePrice: "15 000 so'm",
+    price: "13 000 so'm",
+    divSlot: divSlot,
   },
   {
-    id: 1,
+    id: 2,
+    img: img1,
+    like: <FaRegHeart />,
+    title: `Kungaboqar yog'i Oila tanlovi,
+    tozalangan va xidsizlantirilgan, 90…`,
+    starText: `4.9 (4092 sharsh)`,
+    starIcon: <FaStar color="#FFB54C" size={12} />,
+    credit: `1 560 so'm/oyiga`,
+    fakePrice: "15 000 so'm",
+    price: "13 000 so'm",
+    divSlot: divSlot,
   },
   {
-    id: 1,
+    id: 3,
+    img: img1,
+    like: <FaRegHeart />,
+    title: `Kungaboqar yog'i Oila tanlovi,
+    tozalangan va xidsizlantirilgan, 90…`,
+    starText: `4.9 (4092 sharsh)`,
+    starIcon: <FaStar color="#FFB54C" size={12} />,
+    credit: `1 560 so'm/oyiga`,
+    fakePrice: "15 000 so'm",
+    price: "13 000 so'm",
+    divSlot: divSlot,
   },
   {
-    id: 1,
+    id: 4,
+    img: img1,
+    like: <FaRegHeart />,
+    title: `Kungaboqar yog'i Oila tanlovi,
+    tozalangan va xidsizlantirilgan, 90…`,
+    starText: `4.9 (4092 sharsh)`,
+    starIcon: <FaStar color="#FFB54C" size={12} />,
+    credit: `1 560 so'm/oyiga`,
+    fakePrice: "15 000 so'm",
+    price: "13 000 so'm",
+    divSlot: divSlot,
   },
   {
-    id: 1,
-  },
-  {
-    id: 1,
-  },
-  {
-    id: 1,
-  },
-  {
-    id: 1,
-  },
-  {
-    id: 1,
-  },
-  {
-    id: 1,
-  },
-  {
-    id: 1,
-  },
-  {
-    id: 1,
-  },
-  {
-    id: 1,
-  },
-  {
-    id: 1,
+    id: 5,
+    img: img1,
+    like: <FaRegHeart />,
+    title: `Kungaboqar yog'i Oila tanlovi,
+    tozalangan va xidsizlantirilgan, 90…`,
+    starText: `4.9 (4092 sharsh)`,
+    starIcon: <FaStar color="#FFB54C" size={12} />,
+    credit: `1 560 so'm/oyiga`,
+    fakePrice: "15 000 so'm",
+    price: "13 000 so'm",
+    divSlot: divSlot,
   },
 ];
 
@@ -102,3 +315,17 @@ export const types = [
     title: "Qurilish va taʼmirlash",
   },
 ];
+
+// {
+//   id: 5,
+//   img: img1,
+//   like: <FaRegHeart />,
+//   title: ``,
+//   starText: ``,
+//      starIcon: <FaStar color="#FFB54C" size={12} />,
+
+//   credit: ``,
+//   fakePrice: "",
+//   Price: "",
+//   divSlot: divSlot,
+// },

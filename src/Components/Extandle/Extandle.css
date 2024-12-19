@@ -9,3 +9,67 @@
   font-weight: 700;
   color: #1f2026;
 }
+.goods {
+  width: 232px;
+  height: 456px;
+}
+.goods .image {
+  width: 100%;
+  height: 309px;
+  object-fit: cover;
+}
+.LowPrices {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 50px;
+}
+#title {
+  font-size: 12.8px;
+  font-weight: 400;
+  color: #1f2026;
+}
+#star {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11.2px;
+  font-weight: 300;
+  color: #8b8e99;
+  margin-top: 6px;
+}
+#credit {
+  width: 100px;
+  height: 17px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 400;
+  background-color: #ffff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6px;
+}
+.product {
+  height: 70px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.price #fake-price {
+  font-size: 11.2px;
+  font-weight: 400;
+  text-decoration: line-through;
+  color: #8b8e99;
+}
+.price #actual-price {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1f2026;
+}
+.product .image img {
+  width: 32px;
+  height: 32px;
+}
