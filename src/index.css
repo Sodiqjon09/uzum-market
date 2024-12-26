@@ -14,7 +14,8 @@ body {
 .Suggestion,
 .Bottombar,
 .swiper,
-.Extandle {
+.Extandle,
+.wishes {
   padding: 0 80px;
 }
 
@@ -28,4 +29,9 @@ img,
 button,
 select {
   cursor: pointer;
+}
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
 }

@@ -1,8 +1,8 @@
 import React from "react";
 import "./Home.css";
-import Navbar from "../navbar/Navbar";
 import MainContent from "../Main-content/MainContent";
 import Extandle from "../Extandle/Extandle";
+import Navbar from "../navbar/Navbar";
 
 function Home() {
   return (

@@ -30,7 +30,7 @@ function Suggestion() {
           <IoPersonOutline />
           <span>Kirish</span>
         </Link>
-        <Link to="/">
+        <Link to="/wishes">
           <FaRegHeart />
           <span>Saralangan</span>
         </Link>

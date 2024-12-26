@@ -314,16 +314,17 @@ export const types = [
   },
 ];
 
-// {
-//   id: 5,
-//   img: img1,
-//   like: <FaRegHeart />,
-//   title: ``,
-//   starText: ``,
-//      starIcon: <FaStar color="#FFB54C" size={12} />,
-
-//   credit: ``,
-//   fakePrice: "",
-//   Price: "",
-//   divSlot: divSlot,
-// },
+export const languages = {
+  uzb: {
+    city: `shaxar`,
+    Toshkent: `Toshkend`,
+  },
+  rus: {
+    city: `город`,
+    Toshkent: `Toshkend`,
+  },
+  eng: {
+    city: `city`,
+    Toshkent: `Toshkend`,
+  },
+};

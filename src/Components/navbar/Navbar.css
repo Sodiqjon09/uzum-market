@@ -45,15 +45,6 @@ li {
   font-weight: 500;
   text-decoration: none;
 }
-.top-links span {
-  display: flex;
-  align-items: center;
-  font-size: 14px;
-  font-weight: 500;
-  gap: 4px;
-  color: #1f2026;
-  cursor: pointer;
-}
 .Suggestion {
   display: flex;
   justify-content: space-between;
@@ -131,4 +122,22 @@ li {
 }
 .logo svg {
   width: 247px;
+}
+.top-links select {
+  border: none;
+  background: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1f2026;
+}
+.flag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.flag img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
 }
