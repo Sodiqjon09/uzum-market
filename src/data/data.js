@@ -1,5 +1,4 @@
-import { FaStar } from "react-icons/fa6";
-import { FaRegHeart } from "react-icons/fa6";
+import { FaStar, FaRegHeart } from "react-icons/fa6";
 import divSlot from "../asset/images/Button.png";
 import img1 from "../asset/images/1.png";
 import img2 from "../asset/images/2.png";
@@ -314,17 +313,52 @@ export const types = [
   },
 ];
 
+// data.js
+
 export const languages = {
   uzb: {
-    city: `shaxar`,
-    Toshkent: `Toshkend`,
+    city: `shahar`,
+    Toshkent: `Toshkent`,
+    DeliveryPoints: `Yetkazib berish punktlari`,
+    topText: `Buyurtmangizni 1 kunda bepul yetkazib beramiz!`,
+    topQuestion: `Savol-javoblar`,
+    topOrder: `Buyurtmalarim`,
+    directory: `Katalog`,
+    SuggestionInput: `Mahsulotlar va turkumlar izlash`,
+    sign: `Kirish`,
+    qualifiers: `Saralanganlar`,
+    basket: `Savat`,
+    InstallmentPayment: `Muddatli to'lov`,
+    again: `yana`,
   },
   rus: {
     city: `город`,
-    Toshkent: `Toshkend`,
+    Toshkent: `Тошкент`,
+    DeliveryPoints: `Пункты доставки`,
+    topText: `Доставим ваш заказ бесплатно за 1 день!`,
+    topQuestion: `Вопросы и ответы`,
+    topOrder: `Мои заказы`,
+    directory: `Каталог`,
+    SuggestionInput: `Поиск товаров и категорий`,
+    sign: `Войти`,
+    qualifiers: `Отфильтрованные`,
+    basket: `Корзина`,
+    InstallmentPayment: `Рассрочка платежа`,
+    again: `снова`,
   },
   eng: {
     city: `city`,
-    Toshkent: `Toshkend`,
+    Toshkent: `Tashkent`,
+    DeliveryPoints: `Delivery points`,
+    topText: `We deliver your order for free in 1 day!`,
+    topQuestion: `Questions and answers`,
+    topOrder: `My orders`,
+    directory: `Catalog`,
+    SuggestionInput: `Search products and categories`,
+    sign: `Sign in`,
+    qualifiers: `Filtered`,
+    basket: `Basket`,
+    InstallmentPayment: `Installment payment`,
+    again: `again`,
   },
 };

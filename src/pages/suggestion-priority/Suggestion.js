@@ -1,13 +1,19 @@
 import React from "react";
-import { ReactComponent as Logo } from "../../../asset/svg/Logo.svg"; // Note: Use 'ReactComponent'
-import { ReactComponent as Directy } from "../../../asset/svg/directy.svg";
+import { ReactComponent as Logo } from "../../asset/svg/Logo.svg"; // Note: Use 'ReactComponent'
+import { ReactComponent as Directy } from "../../asset/svg/directy.svg";
 import { GoSearch } from "react-icons/go";
 import { Link } from "react-router-dom";
 import { IoPersonOutline } from "react-icons/io5";
-import { FcLike } from "react-icons/fc";
-import { CiShoppingBasket } from "react-icons/ci";
 import { FaRegHeart } from "react-icons/fa6";
+import { CiShoppingBasket } from "react-icons/ci";
+import { useLanguage } from "../../LanguageSelector";
+import { languages } from "../../data/data";
+
 function Suggestion() {
+  const { language } = useLanguage();
+
+  const currentLanguage = languages[language] || languages["uzb"];
+
   return (
     <div className="Suggestion">
       <div className="logo">
@@ -16,10 +22,10 @@ function Suggestion() {
       <div className="search">
         <div className="directy">
           <Directy />
-          <span>Katalog</span>
+          <span>{currentLanguage.directory}</span>
         </div>
         <div className="input">
-          <input type="text" placeholder="Mahsulotlar va turkumlar izlash" />
+          <input type="text" placeholder={currentLanguage.SuggestionInput} />
           <div>
             <GoSearch />
           </div>
@@ -28,15 +34,15 @@ function Suggestion() {
       <div className="sign">
         <Link to="/login">
           <IoPersonOutline />
-          <span>Kirish</span>
+          <span>{currentLanguage.sign}</span>
         </Link>
         <Link to="/wishes">
           <FaRegHeart />
-          <span>Saralangan</span>
+          <span>{currentLanguage.qualifiers}</span>
         </Link>
         <Link to="/">
           <CiShoppingBasket />
-          <span>Savat</span>
+          <span>{currentLanguage.basket}</span>
         </Link>
       </div>
     </div>

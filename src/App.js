@@ -3,20 +3,21 @@ import Login from "./Components/login/Login";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import Signup from "./Components/Signup/Signup";
-import Navbar from "./Components/navbar/Navbar";
-import Wishes from "./Components/Wishes/Wishes";
+import Wishes from "./pages/Wishes/Wishes";
+import { LanguageProvider } from "./LanguageSelector"; // Import the LanguageProvider
 
 function App() {
   return (
-    <BrowserRouter>
-      {/* <Navbar /> */}
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
-        <Route path="/wishes" element={<Wishes />} />
-      </Routes>
-    </BrowserRouter>
+    <LanguageProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/wishes" element={<Wishes />} />
+        </Routes>
+      </BrowserRouter>
+    </LanguageProvider>
   );
 }
 

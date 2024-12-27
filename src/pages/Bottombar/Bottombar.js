@@ -1,16 +1,20 @@
 import React from "react";
-import DivImage from "../../../asset/images/div.image.png";
-import { types } from "../../../data/data";
+import DivImage from "../../asset/images/div.image.png";
+import { languages, types } from "../../data/data";
 import { Link } from "react-router-dom";
 import "./Bottambar.css";
+import { useLanguage } from "../../LanguageSelector";
 
 function Bottombar() {
+  const { language } = useLanguage();
+
+  const currentLanguage = languages[language || languages["uzb"]];
   return (
     <div className="Bottombar">
       <div className="types">
         <span>
           <img src={DivImage} alt="Div Logo" />
-          Muddatli to'lov
+          {currentLanguage.InstallmentPayment}
         </span>
         {types.map((e) => {
           return (
@@ -21,7 +25,7 @@ function Bottombar() {
         })}
       </div>
       <select name="" id="">
-        <option>Yana</option>
+        <option>{currentLanguage.again}</option>
       </select>
     </div>
   );
